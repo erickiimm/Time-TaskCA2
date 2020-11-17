@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author lsant
+ * @author laissantos
  */
 public class OddEven {
 
