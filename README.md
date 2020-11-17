@@ -32,3 +32,43 @@ public class OddEven {
     }
     }   
 }
+
+
+package homework2ex1;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Almira
+ */
+public class Homework2Ex1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+      
+        
+        int number1;
+        int number2;
+        
+        System.out.print("Input first integer:");
+        number1 = input.nextInt();
+        
+        System.out.print("Input second integer:");
+        number2 = input.nextInt();
+        
+        if(number1 < number2) {
+        System.out.printf("The first integer (%d) is less than the second number integer(%d)", number1, number2);
+    }
+        else if(number1 > number2){
+        
+        System.out.printf("The first integer(%d) is grater than the second integer(%d)", number1, number2);
+        
+        
+        }
+    }
+}
+
+        
